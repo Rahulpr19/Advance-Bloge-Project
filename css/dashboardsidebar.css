@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.sidena ul li a{
+	color: #000;
+  margin-left: 10px;
+	
+}
+
+.sidena ul li a{
+   display: block;
+   height: 40px;
+   line-height: 40px;
+  }
+.sidena ul li:hover > ul{
+    display: block;
+  }
+.sidena ul li a:hover
+  {
+    background: #ED3237;
+    color: #fff !important;
+    height: 40px;
+    line-height: 40px;
+  }
+
+@media only screen and (max-width: 812px){
+    .mobn{ display: block !important; }
+  }
+
+  @media only screen and (max-width: 812px){
+    .sides{ display: none; }
+  }

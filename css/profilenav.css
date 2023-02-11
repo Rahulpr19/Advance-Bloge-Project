@@ -1,0 +1,29 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.mystore img{
+	width: 160px; 
+	height: 160px; 
+	border-radius: 100%; 
+	border: 2px solid white;
+}
+.bar{
+	background: #000 !important;
+}
+.bar ul{
+	margin: 0px auto;
+	height: 50px;
+}
+
+.bar ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 6px !important;
+}
+.bar ul li a{
+	text-decoration: none;
+	color: #fff !important;
+}

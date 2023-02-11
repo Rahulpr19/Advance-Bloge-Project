@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('image/gg.jpg');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.navbar{
+	padding: 0 !important;
+ /*...................... Login Page And Register/Sign In Page Navbar or Menu Bar..........................*/
+}
+
+.navbar-collapse ul{
+    padding: 0px;
+  }
+
+.collapse ul li a{
+	color: #fff !important;
+}
+.collapse ul li{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }
+  .collapse ul li:hover > ul{
+    display: block;
+    transition: 1s;
+  }
+  .collapse ul li a:hover
+  {
+    background: #ED3237;
+    color: #fff !important;
+    transition: 1s;
+  }
+
+/*......................Login Page And Register/Sign In Page Lebel / Rext Box Design..........................*/
+
+.form-group {
+  margin: 10px 0px 10px 0px;
+}
+.form-check{
+	padding: 0px !important;
+}
+.btn3 {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color:#000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup{
+      background-color: green !important;
+      color: #fff !important;
+      padding: 8px 17px;
+      margin-bottom: 10px;
+      width: auto;
+      border-radius: 30px;
+      text-align: center;
+}
+ /*......................Login Page And Register/Sign In page Sign In Error Pop-Up Box..........................*/
+
+.error {
+  background-color: green !important;
+      color: #fff !important;
+      padding: 8px 17px;
+      margin-bottom: 10px;
+      width: auto;
+      border-radius: 30px;
+      text-align: center;
+}
+.success{
+      background-color: green !important;
+      color: #fff !important;
+      padding: 8px 17px;
+      margin-bottom: 10px;
+      width: auto;
+      border-radius: 30px;
+      text-align: center;
+}
+
+

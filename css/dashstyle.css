@@ -1,0 +1,86 @@
+/*......................Home Page Background Image..........................*/
+  .clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+  }
+  
+  /*......................Navbar or Menu Bar..........................*/
+  .menu ul li{
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+  }
+.menu ul li a{
+  color: #fff !important;
+}
+  .menu ul li:hover > ul{
+    display: block;
+    transition: 1s;
+  }
+  .menu ul li a:hover
+  {
+    background: #ED3237;
+    color: #fff;
+    transition: 1s;
+  }
+.nohov a:hover
+{
+  background: transparent !important;
+}
+
+.btn-full{
+  background-color: transparent;
+  color: #fff !important;
+  border: 2px solid #f61919;
+  padding: 10px 30px;
+  font-weight: lighter;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+}
+
+#aboutrew{
+    margin-top: 10px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 9999;
+    padding: 5px;
+   display: none;
+   
+}
+
+/*......................Main Big Color Word part......................*/
+
+  .main-content-header{
+    width:1180px;
+    position: absolute;
+  }
+h1{
+  color: #fff;
+  font-size: 150%;
+  font-weight: lighter;
+  word-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+
+
+/*..............Animated Word Near About.........................*/
+
+.glowing{
+    animation: rahul 1s infinite;
+}
+@keyframes rahul{
+    0%{color:#red;}
+    25%{color: #fff;}
+    50%{color: #000;}
+    100%{color: red;}
+}
+
